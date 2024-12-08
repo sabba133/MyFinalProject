@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}
+body { background-color: #fde0dd;
+color: #c51b8a;
+font-family: Georgia, "Times New Roman", serif; }
+			
+header { background-color: #002171;
+color: #0f0007;
+height: 120px;
+text-align: center;
+padding-top: 30px;
+padding-left: none;
+background-image: url(home1.jpg);
+}
+	
+
+
+#wrapper {width: 80%; margin: auto;
+background-color: #f593aa;
+background-image: linear-gradient(to bottom, #FFFFFF, #f593aa);
+background-repeat: no-repeat;
+min-width: 960px;
+max-width: 2048px;
+box-shadow: 3px 3px 3px #333
+border: 1px solid #003;
+
+}
+	
+table { border: 2px solid  #eba910;
+       border-collapse: collapse;
+td, th { padding: 0.5em; border: 2px solid #eba910;}
+td { text-align: center; }
+.text { text-align: left; }
+tr:nth-of-type(odd) { background-color: #26d113; }
+
+
+form { 
+ display: flex; flex-flow: colum nowrap;font-size: 10px;
+ cursor: pointer;
+ }
+input, textarea { margin-bottom: .5em; }
+
+nav {
+	background:#f5f5f5;
+	width: 100%;
+	overflow: auto;
+}
+
+ul{
+margin:0;
+padding:0 ;
+list-style: non;	
+}
+
+li{
+	float: left;
+}
+
+nav a {
+	width: 120px;
+	display: black;
+	text-decoration: none;
+	font-size: 17px;
+	color:none;
+	padding: 20px 10px;
+	font-family: Arial;
+}
+
+#contact {font-size: 90%; }
+.img {flex: 1 1 30rem;
+display: table;
+	
+}
+		
+	}
+footer { font-size: 100%;
+         font-style: italic;
+		 text-align: left;
+		 font-family: Georgia, "Times New Roman", serif;
+		 padding: 2em;
+		 margin-left: 300px;
+}
+
+section { display: table;
+flex: relative;
+}
